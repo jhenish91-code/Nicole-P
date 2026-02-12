@@ -1,0 +1,23 @@
+div{
+div{
+	 font-family: Rockwell;
+	 color: white;
+     height: 100px;
+	 background-color: black;
+	 border-radius: 10px
+}
+table{
+     display: flex;
+	 justify-content: center;
+
+}
+h1{
+     display: flex;
+     justify-content: center;
+	 align-content: flex;
+
+}
+
+}
+    
+	
