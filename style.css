@@ -1,27 +1,37 @@
-div{
-div{
-	 font-family: Rockwell;
-	 color: white;
-     height: 100px;
-	 background-color: black;
-	 border-radius: 10px
-}
-table{
-     display: flex;
-	 justify-content: center;
-
-}
-h1{
-     display: flex;
-     justify-content: center;
-	 align-content: flex;
-
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
 }
 
 header{
-	display: flex;
-	justify-content: space-between;
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:#020617;
 }
-    
 
-	
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:white;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+button{
+padding:12px 25px;
+background:#38bdf8;
+border:none;
+border-radius:5px;
+color:white;
+font-size:16px;
+}
