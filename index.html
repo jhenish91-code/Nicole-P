@@ -1,54 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <header>
-    <h1>My Portfolio</h1>
-    <p>I'm student | Beginner Web Developer</p>
+    <div class="logo">Pineda Princess</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
+<section id="home" class="home">
+    <div class="home-content">
+        <h1>Hello! I'm Princess Nicole Pineda</h1>
+        <p>Information Technology Student | Beginner Web Developer</p>
+        <a href="#contact" class="btn">Hire Me</a>
+    </div>
+</section>
 
-<section id="about">
+<section id="about" class="about">
     <h2>About Me</h2>
-    <p>Hello! My name is Nicole P. I am a student learning HTML and CSS. 
-    I enjoy creating simple websites and improving my coding skills.</p>
+    <p>
+        I am an IT student passionate about web development. I enjoy designing websites and improving my coding skills.
+        My goal is to become a professional web developer and create amazing web experiences.
+    </p>
+    <div class="info">
+        <p><strong>Age:</strong> 16</p>
+        <p><strong>School:</strong> Mabalacat Fatima </p>
+        <p><strong>Location:</strong>Pampanga City,</p>
+    </div>
 </section>
 
-<section id="skills">
-    <h2>My Skills</h2>
-    <ul>
-        <li>Video Editing</li>
-        <li>Photos Editing</li>
-        <li>Presentation Design</li>
-        <li>Creative</li>
-    </ul>
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill-bar">
+        <p>HTML</p>
+        <div class="bar"><span style="width:90%"></span></div>
+    </div>
+    <div class="skill-bar">
+        <p>CSS</p>
+        <div class="bar"><span style="width:80%"></span></div>
+    </div>
+    <div class="skill-bar">
+        <p>JavaScript (Basics)</p>
+        <div class="bar"><span style="width:50%"></span></div>
+    </div>
 </section>
 
-<section id="projects">
-    <h2>My Projects</h2>
-
-    <div class="project">
-        <h3>Personal Website</h3>
-        <p>A simple website about myself using HTML and CSS.</p>
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+        <div class="project-card">
+            <h3>Personal Webpage</h3>
+            <p>A simple webpage introducing myself using HTML and CSS.</p>
+        </div>
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A beginner portfolio website created using HTML and CSS with responsive design.</p>
+        </div>
+        <div class="project-card">
+            <h3>School Activity Website</h3>
+            <p>A small website project for our school event using HTML and CSS</p>
+        </div>
     </div>
-
-    <div class="project">
-        <h3>School Project</h3>
-        <p>A webpage created for our ICT subject.</p>
-    </div>
+</section>
 
 <footer>
-    <p>2026 Student Portfolio</p>
+    <p>2026 Portfolio</p>
 </footer>
 
 </body>
